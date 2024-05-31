@@ -21,7 +21,7 @@ public class IslandGenerator : MonoBehaviour
 
     public int islandWidth = 200;
     public int islandHeight = 200;
-    public float scale = 3f;
+    public float scale = 100f;
 
     public float verydeepWaterThreshold = 0.1f;
     public float deepWaterThreshold = 0.28f;
@@ -29,7 +29,7 @@ public class IslandGenerator : MonoBehaviour
     public float sandThreshold = 0.45f;
     public float grassThreshold = 0.6f;
     public float highGrassThreshold = 0.75f;
-    public float stoneThreshold = 0.95f;
+    public float stoneThreshold = 0.9f;
 
     public int seed = 0;
 
